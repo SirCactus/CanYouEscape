@@ -14,6 +14,7 @@ public class MoveMent : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		this.transform.Translate (.25f,0f,0f);
 		if (Input.GetKey("w")){
 			this.transform.Translate (0f,1f,0f);
 		}
