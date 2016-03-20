@@ -14,7 +14,8 @@ public class MoveMent : MonoBehaviour {
 			this.transform.Translate (0f,-.1f,0f);
 		}
 		if (Input.GetKey("w")&& this.yFromCamera()<5f&&startHeight==this.transform.position.y){
-			this.transform.Translate (0f,2f,0f);
+			//this.transform.Translate (0f,2f,0f);
+
 		}
 		else if (Input.GetKey("s")&& this.yFromCamera()>-3f){
 			this.transform.Translate (0f,-.2f,0f);
